@@ -1,4 +1,4 @@
-# Tailcast
+# Vestika
 
 Dark themed website template built on AstroJS, designed for technological startup business.
 
