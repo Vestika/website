@@ -29,8 +29,8 @@ export const Navbar = () => {
               <div className="text-white mr-2 text-6xl">
                 <TailcastLogo />
               </div>
-              <div className="text-white font-['Inter'] font-bold text-xl">
-                Vestika
+              <div className="text-white font-['Inter'] font-bold text-xl mt-3 -ml-1">
+                estika
               </div>
             </div>
           </a>
