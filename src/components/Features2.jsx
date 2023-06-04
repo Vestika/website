@@ -38,12 +38,12 @@ export const Features2 = () => (
               Make Data-Driven Decisions
             </span>
             <h2 className="mt-6 mb-8 text-4xl lg:text-5xl custom-block-big-title">
-              Issue tracking you’ll enjoy using
+              Insightful Reports and Infographics
             </h2>
             <p className="mb-12 text-customGrayText leading-loose">
-              Monitor and track data issues with ease using our intuitive and
-              efficient issue tracking system. Stay ahead of potential problems
-              and improve your workflow.
+              Understanding your financial data shouldn't be a daunting task.
+               Vestika simplifies it all with visually stunning infographics and detailed reports.
+                Our intelligent algorithms analyze your savings and investments, providing you with actionable insights to make informed decisions.
             </p>
             <ul className="mb-6 text-white">
               <li className="mb-4 flex">

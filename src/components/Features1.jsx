@@ -23,12 +23,10 @@ export const Features1 = () => {
             <div className="mx-auto lg:mx-auto w-11/12 sm:w-4/5 md:w-3/4 lg:w-unset">
               <span className="custom-block-subtitle">Embrace Innovation</span>
               <h2 className="mt-6 mb-8 text-4xl lg:text-5xl custom-block-big-title">
-                Unlike any tool you used before
+                Track Your Finances, All in One Place
               </h2>
               <p className="mb-10 text-customGrayText leading-loose">
-                Discover a new level of data analysis with our innovative and
-                user-friendly platform. Transform your business needs with actionable
-                insights.
+                Simplify your financial tracking. Link all your accounts in one place with Vestika. Real-time updates provide an accurate snapshot of your financial status.
               </p>
               <ul className="mb-6 text-white">
                 <li className="mb-4 flex">
