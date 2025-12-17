@@ -1,10 +1,22 @@
-# Vestika
+# Vestika FAQ Website
 
-Dark themed website template built on AstroJS, designed for technological startup business.
+Hebrew FAQ website for Vestika - an open-source financial asset management system.
+
+Visit: https://vestika.io  
+App: https://app.vestika.io
 
 ## Tech stack:
 
-Astro, React, Tailwind, Framer Motion
+Astro, React, Tailwind CSS
+
+## Features
+
+- 📱 **Responsive Design** - Works beautifully on all devices
+- 🔗 **Deep Linking** - Share direct links to specific questions
+- 🎯 **Collapsible Sections** - Clean, organized accordion-style FAQ
+- 🇮🇱 **Hebrew RTL Support** - Full right-to-left layout with Hebrew typography
+- 🧭 **Topic Navigation** - Sticky navigation to jump between topics
+- 🎨 **Modern UI** - Beautiful gradients, shadows, and smooth transitions
 
 ##  Project Structure
 

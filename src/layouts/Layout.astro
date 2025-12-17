@@ -14,7 +14,7 @@ const { title } = Astro.props;
 ---
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="he">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
@@ -22,18 +22,31 @@ const { title } = Astro.props;
     <meta name="generator" content={Astro.generator} />
     <meta
       name="description"
-      content="Dark themed website template built on AstroJS, designed for technological startup business."
+      content="Vestika - מערכת ניהול נכסים פיננסיים בקוד פתוח. מעקב אחר חשבונות, מניות, נדל״ן ונכסים נוספים במקום אחד."
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
     <title>{title}</title>
   </head>
   <body>
     <slot />
     <style is:global>
       html {
-        font-family: Inter;
-        background-color: #26272b;
+        font-family: 'Heebo', Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        background-color: #000000;
         overflow-x: hidden;
         scroll-behavior: smooth;
+      }
+      
+      body {
+        margin: 0;
+        padding: 0;
+        background-color: #000000;
+      }
+      
+      * {
+        box-sizing: border-box;
       }
     </style>
   </body>
