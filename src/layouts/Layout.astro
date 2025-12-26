@@ -26,7 +26,7 @@ const { title } = Astro.props;
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;600;700;800;900&family=Poiret+One&display=swap" rel="stylesheet" />
     <title>{title}</title>
   </head>
   <body>
@@ -47,6 +47,64 @@ const { title } = Astro.props;
       
       * {
         box-sizing: border-box;
+      }
+      
+      /* Markdown formatting styles */
+      strong {
+        font-weight: 700;
+        color: inherit;
+      }
+      
+      em {
+        font-style: italic;
+        color: inherit;
+      }
+      
+      del {
+        text-decoration: line-through;
+        color: inherit;
+        opacity: 0.7;
+      }
+      
+      /* Paragraph spacing */
+      p {
+        margin: 0.75rem 0;
+      }
+      
+      p:first-child {
+        margin-top: 0;
+      }
+      
+      p:last-child {
+        margin-bottom: 0;
+      }
+      
+      /* List styles */
+      ul {
+        margin: 0.75rem 0;
+        padding-right: 1.5rem;
+        list-style-type: disc;
+        list-style-position: outside;
+      }
+      
+      /* Nested lists */
+      ul ul {
+        margin: 0.5rem 0;
+        padding-right: 1.5rem;
+        list-style-type: circle;
+      }
+      
+      ul ul ul {
+        list-style-type: square;
+      }
+      
+      li {
+        margin: 0.25rem 0;
+        color: inherit;
+      }
+      
+      li > p {
+        margin: 0;
       }
     </style>
   </body>
